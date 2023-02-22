@@ -117,9 +117,40 @@ h2.header-slogan {
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+main {
+  width: 1000px;
+  margin: 50px;
+}
 
+.testimonials {
 
+}
 
+.contact {
+
+}
+
+.contact-image {
+  border-radius: 15px;
+  position: relative;
+  top: 40px;
+  left: 80px;
+  margin-bottom: 30px;
+}
+
+.contact-subtext {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+}
 /*///////////// 3.3 Support /////////////*/
 
 
