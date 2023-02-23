@@ -21,12 +21,27 @@
   padding: 0;
 }
 
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #1C2B32;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 64px 0;
+}
 
+h1,
+h2 {
+  text-align: center;
+}
 
 
 /*////////////////////////
@@ -38,6 +53,10 @@ body {
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
 .header-domainshop {
   background-image: url("../assets/images/mountains.jpg");
   background-size: cover;
@@ -96,7 +115,7 @@ h2.header-slogan {
 }
 
 
-.button-domain-name {
+.domain-name-button {
   font-size: 15px;
   width: 200px;
   border: solid 2px #1C2B32;
@@ -112,36 +131,67 @@ h2.header-slogan {
 
 
 
-/*///////////// 3.1 Header /////////////*/
-
-
-
 /*///////////// 3.2 Testimonial /////////////*/
-main {
-  width: 1000px;
-  margin: 50px;
+.testimonial-section {
+  margin: 64px 0 ;
 }
 
-.testimonials {
 
+.testimonial {
+  /*position: relative;*/
+  /*padding: 64px 96px 64px 150px;*/
+  /*box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);*/
+  /*margin: 64px 0;*/
+  position: relative;
+  padding: 64px 96px 64px 150px;
+  margin: 64px 0;
+  border-radius: 12px;
+  /* Shadow */
+  box-shadow: 0 8px 18px 2px rgba(24, 39, 75, 0.12),
+  0 6px 20px 4px rgba(24, 39, 75, 0.12);
 }
 
-.contact {
+.testimonial-quote-icon {
+  position: absolute;
+  left: 100px;
+  top: 64px;
+}
 
+.testimonial-quote {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+.testimonial-portrait {
+  position: relative;
+  margin-top:
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+}
+
+.testimonial-name {
+  display: inline;
+  font-style: italic;
+  margin-left: 40px;
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+.contact-section {
+  margin: 64px 0;
 }
 
 .contact-image {
   border-radius: 15px;
-  position: relative;
-  top: 40px;
-  left: 80px;
-  margin-bottom: 30px;
+  width: 100%;
 }
 
 .contact-subtext {
   position: relative;
   margin-top: 30px;
-  margin-left: 80px;
 }
 
 a {
@@ -151,8 +201,19 @@ a {
 a:hover {
   text-decoration: none;
 }
-/*///////////// 3.3 Support /////////////*/
 
+.contact-button {
+  position: relative;
+
+  font-size: 15px;
+  width: fit-content;
+  padding: 20px;
+  border: solid 2px #1C2B32;
+  background: #1C2B32;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
