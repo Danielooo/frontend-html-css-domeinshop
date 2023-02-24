@@ -10,7 +10,7 @@
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-/* grijs #899CA0 en donkergroen #1C2B32 */
+  /* grijs #899CA0 en donkergroen #1C2B32 */
 
 /*////////////////////////
     1. Global Styles
@@ -76,12 +76,11 @@ h1.header-title {
 
 }
 
-h2.header-slogan {
+.header-slogan {
   font-size: 15px;
   font-weight: 400;
-  text-align: center;
   margin-top: -5px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .input-domain-name {
@@ -166,7 +165,6 @@ h2.header-slogan {
 
 .testimonial-portrait {
   position: relative;
-  margin-top:
   width: 45px;
   height: 45px;
   vertical-align: middle;
@@ -217,7 +215,45 @@ a:hover {
 
 
 /*///////////// 3.4 Faq /////////////*/
+.support-section {
+  margin: 20px;
+}
 
+.support-elements {
+  margin-bottom: 50px;
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+details > p {
+  border-radius: 10px 10px 10px 10px;
+  background-color: #899CA0;
+  padding: 2px 6px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.support-question {
+  margin-bottom: 10px;
+}
+
+.support-answer {
+
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+.domeinshop-footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1C2B32;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
